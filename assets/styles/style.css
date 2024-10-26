@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+    font-family: 'Acme', sans-serif;
+    margin: 0;
+    padding: 0;
+ }
+
+ nav {
+    background-color: #3CB371;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    text-align: right;
+ }
+
+ nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: underline;
+    color: white;
+ }
+ 
+ nav a:hover {
+    font-weight: bold;
+    text-shadow: 1px 1px 8px;
+ }
+
+ nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+ }
+
+ .jumbotron {
+    font-size: 20px;
+    padding: 30px;
+    background-color: #66CDAA;
+    text-align: center;
+    color: white;
+ }
+
+ main {
+    padding: 20px;
+    overflow: auto;
+ }
+
+ h2, h3{
+     color: #66CDAA;
+ }
+
+ #content {
+    float: left;
+    width: 75%;
+ }
+
+ #deskripsi>div::first-letter{
+   font-size: 32px;
+   font-weight: bold;
+   color: #AFEEEE;
+}
+
+ .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    overflow:auto;
+ }
+
+ .product-image{
+   width: 4cm;
+   height: 6cm;
+   border: 2px solid black;
+ }
+
+ .container1, .container2, .container3 {
+   height:18cm;
+   width:8cm;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+   float:left;
+}
+
+.button1, .button2, .button3, .button4 {
+   flex-basis: 25%;
+   font-size: 14px;
+   text-align: center;
+   padding: 5px;
+   border: 1px solid black;
+   background: -webkit-linear-gradient(top, #98FB98, #98FB98);
+   cursor: pointer;
+}
+
+aside {
+   float: right;
+   width: 25%;
+   padding-left: 20px;
+}
+
+.profile header {
+   text-align: center;
+}
+
+.profile img{
+   width: 3cm;
+   height: 4cm;
+   border: 2px solid black;
+}
+
+ footer {
+    padding: 20px;
+    color: white;
+    background-color: #3CB371;
+    text-align: center;
+    font-weight: bold;
+ }
+ 
+ @media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+}
+
+header {
+   display: inline;
+}
