@@ -1,2 +1,2 @@
-# Basic-Web-Programming
-A basic web programming project from a bootcamp at dicoding.com.
+# Simple Online Marketplace
+This project is an assignment from a basic web programming boot camp at dicoding.com. I created a simple online marketplace using HTML.
